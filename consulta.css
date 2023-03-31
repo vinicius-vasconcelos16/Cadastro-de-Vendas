@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Personalização do menu de opções das telas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: papayawhip;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  background-color: darkgoldenrod;
+}
+
+#menu-h li{
+  display: inline;
+  background-color: darkgoldenrod;
+  cursor: pointer;
+  width: 100%;
+}
+
+#menu-h li a{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  background-color: darkgoldenrod;
+  transition: background .5s;
+  font-weight: bolder;
+  font-size:medium;
+  color: black;
+}
+
+#menu-h li a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+/* Personalização do menu de opções das telas */
+
+/* Personalização do Formulário de Cadastro */
+.table{
+  width: 90%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  font-weight: bolder;
+  cursor: default;
+}
+
+.dados{
+  font-weight: 700;
+  font-size: medium;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+}
+/* Personalização do Formulário de Cadastro */
+
+/* Personalização nome das colunas */
+.nomes_tab{
+  font-weight: bolder;
+  font-size: larger;
+  color: darkgoldenrod;
+      text-shadow: 
+               1px 1px 1px #000000, 
+               1px 1px 1px #000000,                    
+                1px 1px 1px #000000,                  
+                1px 1px 1px #000000;
+  
+}
