@@ -18,7 +18,7 @@
 <body>
     <div><!--Menu-->
       <ul id="menu-h">
-        <li><a href="cadastro.php">Cadastro de Vendas</a></li><li><a>Consultar</a></li>
+        <li><a href="cadastro.html">Cadastro de Vendas</a></li><li><a>Consultar</a></li>
       </ul>
     </div><!--Fim do Menu-->
     <hr>
